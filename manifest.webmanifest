@@ -1,0 +1,27 @@
+{
+  "name": "Coffee Site",
+  "short_name": "Coffee",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/coffee-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/icons/coffee-256.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+
+    {
+      "src": "/images/icons/coffee-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
