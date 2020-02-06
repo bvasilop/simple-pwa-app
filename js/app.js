@@ -1,14 +1,14 @@
 const container = document.querySelector('.container');
 const coffees = [
-  { name: 'Perspiciatis', image: 'images/coffee.svg' },
-  { name: 'Voluptatem', image: 'images/coffee.svg' },
-  { name: 'Explicabo', image: 'images/coffee.svg' },
-  { name: 'Rchitecto', image: 'images/coffee.svg' },
-  { name: ' Beatae', image: 'images/coffee.svg' },
-  { name: ' Vitae', image: 'images/coffee.svg' },
-  { name: 'Inventore', image: 'images/coffee.svg' },
-  { name: 'Veritatis', image: 'images/coffee.svg' },
-  { name: 'Accusantium', image: 'images/coffee.svg' },
+  { name: 'Jamaican', image: 'images/coffee.svg' },
+  { name: 'Turkish', image: 'images/coffee.svg' },
+  { name: 'Nicaraguan', image: 'images/coffee.svg' },
+  { name: 'Sumatran', image: 'images/coffee.svg' },
+  { name: 'French', image: 'images/coffee.svg' },
+  { name: 'Italian', image: 'images/coffee.svg' },
+  { name: 'Moroccan', image: 'images/coffee.svg' },
+  { name: 'Venezuelan', image: 'images/coffee.svg' },
+  { name: 'Costa Rican', image: 'images/coffee.svg' },
 ];
 
 const showCoffees = () => {
@@ -27,12 +27,3 @@ const showCoffees = () => {
 };
 
 document.addEventListener('DOMContentLoaded', showCoffees);
-
-// if ('serviceWorker' in navigator) {
-//   window.addEventListener('load', function() {
-//     navigator.serviceWorker
-//       .register('/serviceWorker.js')
-//       .then(res => console.log('service worker registered'))
-//       .catch(err => console.log('service worker not registered', err));
-//   });
-// }

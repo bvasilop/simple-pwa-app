@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #fdfdfd;
+  /* background: #fdfdfd; */
+  background: #f6f5de;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
